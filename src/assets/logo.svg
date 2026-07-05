@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 220" width="100%" height="100%">
+  <defs>
+    <!-- Importing a classic elegant Serif font similar to the image -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&amp;display=swap');
+      .main-text {
+        font-family: 'Cinzel', serif;
+        font-weight: 700;
+        font-size: 58px;
+        fill: #111111;
+        letter-spacing: 2px;
+        text-anchor: middle;
+      }
+      .sub-text {
+        font-family: 'Cinzel', serif;
+        font-weight: 500;
+        font-size: 32px;
+        fill: #111111;
+        letter-spacing: 12px;
+        text-anchor: middle;
+      }
+      .line {
+        stroke: #b38f4f;
+        stroke-width: 2;
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+
+  <!-- Background is transparent by default -->
+  
+  <!-- "SURAJMAL" Text -->
+  <text x="250" y="110" class="main-text">SURAJMAL</text>
+  
+  <!-- Left Decorative Line -->
+  <line x1="85" y1="152" x2="165" y2="152" class="line" />
+  
+  <!-- "SONS" Text (Adjusted X slightly to balance the trailing letter-spacing) -->
+  <text x="256" y="162" class="sub-text">SONS</text>
+  
+  <!-- Right Decorative Line -->
+  <line x1="335" y1="152" x2="415" y2="152" class="line" />
+</svg>

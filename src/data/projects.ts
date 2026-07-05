@@ -1,0 +1,88 @@
+import type { Project } from '@/types'
+import { placeholderImage } from '@/utils/placeholder'
+
+export const PROJECTS: Project[] = [
+  {
+    id: 'p1',
+    title: 'The Malhotra Residence',
+    location: 'Vaishali Nagar, Jaipur',
+    area: '3,200 sq.ft',
+    category: 'Homes',
+    image: placeholderImage('p1'),
+    year: '2025',
+  },
+  {
+    id: 'p2',
+    title: 'Hotel Rajmahal Suites',
+    location: 'C-Scheme, Jaipur',
+    area: '18,000 sq.ft',
+    category: 'Hotels',
+    image: placeholderImage('p2'),
+    year: '2024',
+  },
+  {
+    id: 'p3',
+    title: 'Anantara Corporate Office',
+    location: 'Sitapura Industrial Area, Jaipur',
+    area: '9,500 sq.ft',
+    category: 'Offices',
+    image: placeholderImage('p3'),
+    year: '2025',
+  },
+  {
+    id: 'p4',
+    title: 'Spice Route Restaurant',
+    location: 'MI Road, Jaipur',
+    area: '2,800 sq.ft',
+    category: 'Restaurants',
+    image: placeholderImage('p4'),
+    year: '2023',
+  },
+  {
+    id: 'p5',
+    title: 'Godrej Interio Studio',
+    location: 'Ajmer Road, Jaipur',
+    area: '4,100 sq.ft',
+    category: 'Showrooms',
+    image: placeholderImage('p5'),
+    year: '2024',
+  },
+  {
+    id: 'p6',
+    title: 'The Sharma Duplex',
+    location: 'Mansarovar, Jaipur',
+    area: '2,600 sq.ft',
+    category: 'Homes',
+    image: placeholderImage('p6'),
+    year: '2024',
+  },
+  {
+    id: 'p7',
+    title: 'Hotel Amber Vista — Lobby',
+    location: 'Amer Road, Jaipur',
+    area: '5,200 sq.ft',
+    category: 'Hotels',
+    image: placeholderImage('p7'),
+    year: '2023',
+  },
+  {
+    id: 'p8',
+    title: 'Kanaka Furnishing Showroom',
+    location: 'Tonk Road, Jaipur',
+    area: '3,700 sq.ft',
+    category: 'Showrooms',
+    image: placeholderImage('p8'),
+    year: '2025',
+  },
+  {
+    id: 'p9',
+    title: 'The Bansal Penthouse',
+    location: 'Civil Lines, Jaipur',
+    area: '4,800 sq.ft',
+    category: 'Homes',
+    image: placeholderImage('p9'),
+    year: '2025',
+  },
+]
+
+export const PROJECT_CATEGORIES = ['All', 'Homes', 'Hotels', 'Offices', 'Restaurants', 'Showrooms'] as const
