@@ -23,7 +23,7 @@ export default function Navbar() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-400 ${
-        solid ? 'bg-cream/95 backdrop-blur-md shadow-[0_1px_0_rgba(0,0,0,0.06)] py-3' : 'bg-transparent py-6'
+        solid ?' backdrop-blur-md shadow-[0_1px_0_rgba(0,0,0,0.06)] py-3' : 'bg-transparent py-6'
       }`}
     >
       <nav className="container-lux flex items-center justify-between">

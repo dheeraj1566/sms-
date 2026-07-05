@@ -5,8 +5,7 @@ interface LogoProps {
   className?: string
 }
 
-export default function Logo({ variant = 'dark', className = '' }: LogoProps) {
-  const ink = variant === 'dark' ? '#1F1F1F' : '#FAF8F5'
+export default function Logo({  className = '' }: LogoProps) {
 
   return (
     <div className={`flex items-center gap-2.5 ${className}`}>
